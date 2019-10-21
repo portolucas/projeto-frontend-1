@@ -1,0 +1,79 @@
+$font: Helvetica, sans-serif;
+$fontSize: 26px;
+$background: linear-gradient(to right, #f3904f, #3b4371);
+
+body {
+    background: $background;
+  }
+
+  main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-family: $font;
+    font-size: $fontSize;
+
+    .box__title {
+        color: white;
+        text-shadow: 7px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    button {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin-top: 3vh;
+    font-size: $fontSize/1.5;
+    box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: rgb(194, 142, 142);
+    padding: 5px 10px;
+    border: 0;
+    
+        &:hover {
+        padding: 10px 15px;
+        transition: 0.2s;
+        color: rgb(185, 94, 94);
+        box-shadow: 5px 5px 8px rgb(69, 69, 212), 10px 10px 8px rgb(228, 81, 81), 15px 15px 8px rgb(100, 240, 100);
+        }
+        &:active {
+        padding: 10px 15px;
+        transition: 0.2s;
+        color: rgb(185, 94, 94);
+        }
+        &:focus {
+            outline: yellow;
+            padding: 10px 15px;
+            transition: 0.2s;
+            color: rgb(185, 94, 94);
+        }
+    }
+
+    .box__text {
+        text-align: center;
+        transition: 1s;
+        
+        p {
+        font-size: $fontSize/1.4;
+        font-family: $font;
+        font-weight: 300;
+        color: white;
+
+        }
+    }
+
+}
+
+.box {
+    padding: 5vh;
+    border: 1px solid rgb(212, 84, 212);
+    border-radius: 3px;
+    box-shadow: 0px 100px 50px -65px rgba(0, 0, 0, 0.3)
+}
+
+
+
