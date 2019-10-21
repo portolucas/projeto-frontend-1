@@ -1,0 +1,67 @@
+body {
+  background: linear-gradient(to right, #f3904f, #3b4371);
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-family: Helvetica, sans-serif;
+  font-size: 26px;
+}
+main .box__title {
+  color: white;
+  text-shadow: 7px 4px rgba(0, 0, 0, 0.2);
+}
+main button {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: 3vh;
+  font-size: 17.3333333333px;
+  box-shadow: 4px 5px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: #c28e8e;
+  padding: 5px 10px;
+  border: 0;
+}
+main button:hover {
+  padding: 10px 15px;
+  transition: 0.2s;
+  color: #b95e5e;
+  box-shadow: 5px 5px 8px #4545d4, 10px 10px 8px #e45151, 15px 15px 8px #64f064;
+}
+main button:active {
+  padding: 10px 15px;
+  transition: 0.2s;
+  color: #b95e5e;
+}
+main button:focus {
+  outline: yellow;
+  padding: 10px 15px;
+  transition: 0.2s;
+  color: #b95e5e;
+}
+main .box__text {
+  text-align: center;
+  transition: 1s;
+}
+main .box__text p {
+  font-size: 18.5714285714px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+.box {
+  padding: 5vh;
+  border: 1px solid #d454d4;
+  border-radius: 3px;
+  box-shadow: 0px 100px 50px -65px rgba(0, 0, 0, 0.3);
+}
+
+/*# sourceMappingURL=style.css.map */
