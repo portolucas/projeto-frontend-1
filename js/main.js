@@ -11,10 +11,10 @@ var getPosition = function() {
 };
 
 var positionObj = function(position) {
-  alert(
-    "Your Latitude is: " +
-      position.coords.latitude +
-      " and your Longitude is " +
-      position.coords.longitude
-  );
+  document.getElementById('startLat').innerHTML = 'Latitude: ' + position.coords.latitude;
+  document.getElementById('startLon').innerHTML = 'Longitude: ' + position.coords.longitude;
 };
+
+
+
+
