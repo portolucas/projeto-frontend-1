@@ -1,20 +1,36 @@
+const lat = "Latitude: ";
+const long = "Longitude: ";
+
 document.addEventListener("DOMContentLoaded", function(event) {
   document.getElementById("registrarPonto").onclick = function() {
     getPosition();
   };
 });
 
-var getPosition = function() {
+let getPosition = function() {
   if (navigator.geolocation) {
-    navigator.geolocation.getCurrentPosition(positionObj);
+    navigator.geolocation.getCurrentPosition( position =>{
+      onSuccess(position)
+    }, error => {
+      onError(error)
+    }
+    );
   }
 };
 
-var positionObj = function(position) {
-  document.getElementById('startLat').innerHTML = 'Latitude: ' + position.coords.latitude;
-  document.getElementById('startLon').innerHTML = 'Longitude: ' + position.coords.longitude;
-};
+let onError = function (error){
+  document.getElementById("errorMessage").innerHTML = 'Motivo: ' + error.message;
+}
 
+let onSuccess = function(position) {
+
+  let latitude = position.coords.latitude;
+  let longitude = position.coords.longitude;
+
+  document.getElementById('startLat').innerHTML = `${lat} ${latitude}`;
+  document.getElementById('startLon').innerHTML =  `${long} ${longitude}`;
+
+};
 
 
 
