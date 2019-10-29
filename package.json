@@ -7,10 +7,7 @@
   },
   "author": "Lucas Porto",
   "license": "ISC",
-  "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "^7.6.4",
     "@babel/core": "^7.6.4",
