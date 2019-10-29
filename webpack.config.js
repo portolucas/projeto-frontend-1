@@ -20,8 +20,7 @@ module.exports = {
             template: path.join(__dirname, 'src/index.html')
         }),
         new MiniCssExtractPlugin({
-            filename: 'css/index.css',
-            path: path.resolve(__dirname, 'src/css/index.css'),
+            filename: 'css/index.css'
             }
         ),
     ],
