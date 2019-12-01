@@ -3,6 +3,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
+const WorkboxPlugin = require("workbox-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -21,7 +22,8 @@ module.exports = {
     }),
     new MiniCssExtractPlugin({
       filename: "css/index.css"
-    })
+    }),
+    new WorkboxPlugin.GenerateSW()
   ],
   optimization: {
     minimizer: [new UglifyJsPlugin()]

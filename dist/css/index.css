@@ -26,20 +26,22 @@ main button {
   cursor: pointer;
   color: #c28e8e;
   padding: 5px 10px;
-  border: 0; }
+  border: 0;
+  color: black;
+  background: white; }
 
-main button:hover {
+[role="button"]:hover {
   padding: 10px 15px;
   transition: 0.2s;
   color: #b95e5e;
   box-shadow: 5px 5px 8px #4545d4, 10px 10px 8px #e45151, 15px 15px 8px #64f064; }
 
-main button:active {
+[role="button"]:active {
   padding: 10px 15px;
   transition: 0.2s;
   color: #b95e5e; }
 
-main button:focus {
+[role="button"]:focus {
   outline: yellow;
   padding: 10px 15px;
   transition: 0.2s;

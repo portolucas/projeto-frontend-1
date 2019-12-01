@@ -97,14 +97,69 @@ eval("// extracted by mini-css-extract-plugin\n\n//# sourceURL=webpack:///./dist
 
 /***/ }),
 
-/***/ "./src/img/favicon.ico":
-/*!*****************************!*\
-  !*** ./src/img/favicon.ico ***!
-  \*****************************/
+/***/ "./src/img/apple-touch-icon.png":
+/*!**************************************!*\
+  !*** ./src/img/apple-touch-icon.png ***!
+  \**************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("module.exports = __webpack_require__.p + \"img/favicon.ico\";\n\n//# sourceURL=webpack:///./src/img/favicon.ico?");
+eval("module.exports = __webpack_require__.p + \"img/apple-touch-icon.png\";\n\n//# sourceURL=webpack:///./src/img/apple-touch-icon.png?");
+
+/***/ }),
+
+/***/ "./src/img/favicon-142x142.png":
+/*!*************************************!*\
+  !*** ./src/img/favicon-142x142.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/favicon-142x142.png\";\n\n//# sourceURL=webpack:///./src/img/favicon-142x142.png?");
+
+/***/ }),
+
+/***/ "./src/img/favicon-144x144.png":
+/*!*************************************!*\
+  !*** ./src/img/favicon-144x144.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/favicon-144x144.png\";\n\n//# sourceURL=webpack:///./src/img/favicon-144x144.png?");
+
+/***/ }),
+
+/***/ "./src/img/favicon-192x192.png":
+/*!*************************************!*\
+  !*** ./src/img/favicon-192x192.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/favicon-192x192.png\";\n\n//# sourceURL=webpack:///./src/img/favicon-192x192.png?");
+
+/***/ }),
+
+/***/ "./src/img/favicon-32x32.png":
+/*!***********************************!*\
+  !*** ./src/img/favicon-32x32.png ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/favicon-32x32.png\";\n\n//# sourceURL=webpack:///./src/img/favicon-32x32.png?");
+
+/***/ }),
+
+/***/ "./src/img/favicon-512x512.png":
+/*!*************************************!*\
+  !*** ./src/img/favicon-512x512.png ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+eval("module.exports = __webpack_require__.p + \"img/favicon-512x512.png\";\n\n//# sourceURL=webpack:///./src/img/favicon-512x512.png?");
 
 /***/ }),
 
@@ -116,7 +171,7 @@ eval("module.exports = __webpack_require__.p + \"img/favicon.ico\";\n\n//# sourc
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _img_favicon_ico__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/favicon.ico */ \"./src/img/favicon.ico\");\n/* harmony import */ var _img_favicon_ico__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_img_favicon_ico__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _dist_css_index_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../dist/css/index.css */ \"./dist/css/index.css\");\n/* harmony import */ var _dist_css_index_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_dist_css_index_css__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _position__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./position */ \"./src/position.js\");\n\n\n\n_position__WEBPACK_IMPORTED_MODULE_2__[\"lat\"];\n_position__WEBPACK_IMPORTED_MODULE_2__[\"long\"];\ndocument.getElementById(\"registrarPonto\").addEventListener('click', getPosition);\n\nfunction getPosition() {\n  if (navigator.geolocation) {\n    navigator.geolocation.getCurrentPosition(function (position) {\n      Object(_position__WEBPACK_IMPORTED_MODULE_2__[\"onSuccess\"])(position);\n    }, function (error) {\n      Object(_position__WEBPACK_IMPORTED_MODULE_2__[\"onError\"])(error);\n    });\n  }\n}\n\n;\nObject(_position__WEBPACK_IMPORTED_MODULE_2__[\"onSuccess\"])(position);\nObject(_position__WEBPACK_IMPORTED_MODULE_2__[\"onError\"])(error);\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _img_apple_touch_icon_png__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/apple-touch-icon.png */ \"./src/img/apple-touch-icon.png\");\n/* harmony import */ var _img_apple_touch_icon_png__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_img_apple_touch_icon_png__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _img_favicon_32x32_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/favicon-32x32.png */ \"./src/img/favicon-32x32.png\");\n/* harmony import */ var _img_favicon_32x32_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_img_favicon_32x32_png__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _img_favicon_142x142_png__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/favicon-142x142.png */ \"./src/img/favicon-142x142.png\");\n/* harmony import */ var _img_favicon_142x142_png__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_img_favicon_142x142_png__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _img_favicon_144x144_png__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/favicon-144x144.png */ \"./src/img/favicon-144x144.png\");\n/* harmony import */ var _img_favicon_144x144_png__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_img_favicon_144x144_png__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _img_favicon_192x192_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./img/favicon-192x192.png */ \"./src/img/favicon-192x192.png\");\n/* harmony import */ var _img_favicon_192x192_png__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_img_favicon_192x192_png__WEBPACK_IMPORTED_MODULE_4__);\n/* harmony import */ var _img_favicon_512x512_png__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./img/favicon-512x512.png */ \"./src/img/favicon-512x512.png\");\n/* harmony import */ var _img_favicon_512x512_png__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_img_favicon_512x512_png__WEBPACK_IMPORTED_MODULE_5__);\n/* harmony import */ var _dist_css_index_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../dist/css/index.css */ \"./dist/css/index.css\");\n/* harmony import */ var _dist_css_index_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_dist_css_index_css__WEBPACK_IMPORTED_MODULE_6__);\n/* harmony import */ var _position__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./position */ \"./src/position.js\");\n\n\n\n\n\n\n\n\n_position__WEBPACK_IMPORTED_MODULE_7__[\"lat\"];\n_position__WEBPACK_IMPORTED_MODULE_7__[\"long\"];\ndocument.getElementById(\"registrarPonto\").addEventListener(\"click\", getPosition);\n\nfunction getPosition() {\n  if (navigator.geolocation) {\n    navigator.geolocation.getCurrentPosition(function (position) {\n      Object(_position__WEBPACK_IMPORTED_MODULE_7__[\"onSuccess\"])(position);\n    }, function (error) {\n      Object(_position__WEBPACK_IMPORTED_MODULE_7__[\"onError\"])(error);\n    });\n  }\n}\n\nObject(_position__WEBPACK_IMPORTED_MODULE_7__[\"onSuccess\"])(position);\nObject(_position__WEBPACK_IMPORTED_MODULE_7__[\"onError\"])(error);\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 

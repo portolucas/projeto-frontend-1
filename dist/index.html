@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html>
- <head>
- <meta charset="utf=8">
- <link rel="shortcut icon" href="img/favicon.ico">
-
- <title>Desenvolvimento Front-end Avançado</title>
- <link href="css/index.css" rel="stylesheet"></head>
- <body>
+  <head>
+    <meta charset="utf=8" />
+    <link rel="shortcut icon" href="img/favicon-512x512.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.json" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Desenvolvimento Front-end Avançado</title>
+  <link href="css/index.css" rel="stylesheet"></head>
+  <body>
     <main class="box">
-        <header>
-            <h1 class="box__title">Minhas coordenadas</h1>
-        </header>
-      
-        <section>
-            <button class="box__button" id="registrarPonto">Descobrir</button>
-        </section>
-      
-        <section class="box__text">
-            <p id="startLat"></p>
-            <p id="startLon"></p>
-      
-            <p id="lastPosition"></p>
-            <p id="errorMessage"></p>
-        </section>
+      <header>
+        <h1 class="box__title">Minhas coordenadas</h1>
+      </header>
+
+      <section>
+        <button class="box__button" id="registrarPonto">Descobrir</button>
+      </section>
+
+      <section class="box__text">
+        <p id="startLat"></p>
+        <p id="startLon"></p>
+
+        <p id="lastPosition"></p>
+        <p id="errorMessage"></p>
+      </section>
     </main>
- <script type="text/javascript" src="bundle.js"></script></body>
+    <script>
+      if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker.register("/service-worker.js");
+        });
+      }
+    </script>
+  <script type="text/javascript" src="bundle.js"></script></body>
 </html>
